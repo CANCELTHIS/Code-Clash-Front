@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-const SOCKET_URL = "https://code-clash-back-3.onrender.com/";
+const SOCKET_URL = "https://code-clash-back-3.onrender.com";
 class SocketService {
   constructor() {
     this.socket = null;
